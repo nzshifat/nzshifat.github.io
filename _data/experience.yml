@@ -1,0 +1,70 @@
+- title: "Teaching Fellow"
+  institution: "Harvard University"
+  department: "Harvard Graduate School of Education, Harvard Extension School, Harvard Summer School"
+  location: "Cambridge, MA"
+  period: "Sep 2024 – Present"
+  bullets:
+    - "Support graduate and advanced undergraduate courses across economics, applied regression, quantitative methods, and education policy."
+    - "Lead discussion sections and problem-solving sessions; hold office hours; grade quantitative problem sets and policy memos; mentor students in empirical research and statistical concepts in Stata and R."
+    - "Coordinate course logistics, syllabus preparation, assignment distribution, and communications with faculty, guest lecturers, and students."
+
+- title: "Project Associate, Bangladesh Public Administration Project"
+  institution: "Ash Center for Democratic Governance, Harvard Kennedy School"
+  location: "Cambridge, MA"
+  period: "Jun 2024 – Aug 2024"
+  bullets:
+    - "Coordinated a multi-day executive professional development program for senior civil service officials, managing agendas, schedules, communications, and on-site logistics."
+    - "Served as liaison among Harvard faculty project teams, client government agencies, and stakeholders."
+    - "Supported grant-funded project administration, activity tracking against milestones, travel, and budgeting."
+
+- title: "Research Assistant to Professor Susan Dynarski"
+  institution: "Harvard Graduate School of Education"
+  location: "Cambridge, MA"
+  period: "Jan 2024 – May 2024"
+  bullets:
+    - "Developed a synthetic dataset and full replication module in R for a randomized controlled trial (RCT), supporting reproducible applied microeconometric research and graduate teaching."
+    - "Wrote, documented, and maintained analysis code; managed the project's Git/GitHub repository for collaborative version control."
+
+- title: "Research Assistant, Bangladesh Public Administration Project"
+  institution: "Ash Center for Democratic Governance, Harvard Kennedy School"
+  location: "Cambridge, MA"
+  period: "Feb 2024 – May 2024"
+  bullets:
+    - "Programmed and fielded a Qualtrics survey for senior civil service officials; coordinated data collection."
+    - "Cleaned and managed electronically collected survey data; conducted quality assurance checks and prepared analysis-ready databases."
+    - "Produced descriptive statistics and summary tables in R and SPSS; contributed to written reports and executive presentations."
+
+- title: "Lecturer, Department of Educational Technology"
+  institution: "Bangabandhu Sheikh Mujibur Rahman Digital University"
+  location: "Bangladesh"
+  period: "Jan 2023 – Aug 2023"
+  bullets:
+    - "Taught university courses on Educational Research and Data Analysis and Introduction to Education."
+    - "Wrote a successful research grant proposal and secured a BDT 150,000 grant from the University Grants Commission (UGC) of Bangladesh."
+    - "Contributed to curriculum review as a member of the Bachelor of Education Technology curriculum committee."
+
+- title: "Early Career Researcher, 3MPower Project"
+  institution: "The Open University (UK) & EdTechHub"
+  location: "Dhaka, Bangladesh"
+  period: "Aug 2022 – Jan 2023"
+  bullets:
+    - "Conducted literature reviews on EdTech-supported pedagogy for elementary mathematics teachers in low-resource settings."
+    - "Assisted in instrument design, training protocols, and fieldwork logistics across rural hard-to-reach schools."
+    - "Merged and analyzed mixed-methods datasets using SPSS and Dedoose; co-authored donor and academic reports."
+
+- title: "Lecturer (Adjunct)"
+  institution: "Prime University"
+  location: "Dhaka, Bangladesh"
+  period: "Oct 2022 – Jan 2023"
+  bullets:
+    - "Taught graduate-level courses: Advanced Educational Measurement & Evaluation and Advanced Teaching Methods & Techniques."
+    - "Mentored practicing educators in instructional assessment design and classroom implementation."
+
+- title: "Research Associate, Institute of Education and Research"
+  institution: "University of Dhaka"
+  location: "Dhaka, Bangladesh"
+  period: "2018 – 2022"
+  bullets:
+    - "Contributed to major mixed-methods nationwide studies: Teacher Assessment Practices (2022), COVID-19 Learning Gap in Char Islands (2021–2022), and National TVET Engineering Curriculum Tracer Study (2018–2020)."
+    - "Managed multi-wave survey datasets, carried out consistency checks in SPSS/Stata, and co-authored policy reports."
+

@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Research Projects | Nazmuzzaman Shifat</title>
-  <meta name="description" content="Research projects, working papers, and replication code by Nazmuzzaman Shifat.">
+  <title>Research Projects | Md Nazmuzzaman Shifat</title>
+  <meta name="description" content="Applied microeconometrics, randomized controlled trials, education policy evaluations, and public sector datasets by Md Nazmuzzaman Shifat.">
   <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +18,7 @@
     <div class="container nav-container">
       <a href="index.html" class="nav-brand" aria-label="Home">
         <div class="brand-avatar">NS</div>
-        <span>Nazmuzzaman Shifat</span>
+        <span>Md Nazmuzzaman Shifat</span>
       </a>
 
       <ul class="nav-links" id="nav-links">
@@ -28,7 +28,7 @@
         <li><a href="opeds.html" class="nav-link">Op-Eds</a></li>
         <li><a href="teaching.html" class="nav-link">Teaching</a></li>
         <li><a href="collaborations.html" class="nav-link">Collaborations</a></li>
-        <li><a href="experience.html" class="nav-link">Experience / CV</a></li>
+        <li><a href="experience.html" class="nav-link">CV / Experience</a></li>
         <li><a href="contact.html" class="nav-link">Contact</a></li>
       </ul>
 
@@ -44,12 +44,10 @@
   <!-- Main Content -->
   <main>
     <div class="container">
-
       <header class="page-header">
         <h1 class="page-title">Research Projects</h1>
         <p class="page-subtitle">
-          Empirical investigations, econometric models, and computational policy analysis. 
-          All working papers include links to open replication code, datasets, and preprints.
+          Applied microeconometrics, randomized controlled trial replication, education policy evaluations, and large-scale public sector survey datasets across Bangladesh and the United States.
         </p>
       </header>
 
@@ -57,165 +55,160 @@
       <div class="filter-bar">
         <div class="search-input-wrap">
           <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-          <input type="text" class="search-input" placeholder="Search by topic, methodology, co-author...">
+          <input type="text" class="search-input" placeholder="Search by topic, methodology, software (R, Stata, Qualtrics)...">
         </div>
 
         <div class="filter-pills">
           <button class="filter-pill active" data-filter="all">All Projects</button>
-          <button class="filter-pill" data-filter="working-paper">Working Papers</button>
-          <button class="filter-pill" data-filter="in-progress">In Progress</button>
-          <button class="filter-pill" data-filter="published">Published</button>
+          <button class="filter-pill" data-filter="econometrics">Econometrics & RCTs</button>
+          <button class="filter-pill" data-filter="policy">Policy & Governance</button>
+          <button class="filter-pill" data-filter="education">Education & EdTech</button>
         </div>
       </div>
 
-      <!-- Empty State -->
       <div id="empty-filter-state" style="display: none; text-align: center; padding: 3rem 1rem; color: var(--text-muted);">
         <p style="font-size: 1.1rem; margin-bottom: 0.5rem;">No matching research projects found.</p>
         <p style="font-size: 0.9rem;">Try adjusting your search terms or clearing the filter.</p>
       </div>
 
-      <!-- Projects Stack -->
       <div class="list-stack">
 
-        <!-- Research Item 1 -->
-        <article class="card" data-category="published econometrics policy">
+        <!-- Project 1: Susan Dynarski RCT -->
+        <article class="card" data-category="econometrics education rct">
           <div class="card-meta">
-            <span class="tag tag-status tag-published">Published</span>
-            <span>Journal of Economic Perspectives &bull; 2026</span>
+            <span class="tag tag-status tag-published">Completed</span>
+            <span>Harvard Graduate School of Education &bull; 2024</span>
           </div>
-          <h2 class="card-title">Algorithmic Resource Allocation in Public Infrastructure Delivery</h2>
-          <p class="card-subtitle">Nazmuzzaman Shifat, Dr. Eleanor Vance, Dr. Kazi Rahman</p>
+          <h2 class="card-title">Reproducible RCT Replication Module & Synthetic Microdata in R</h2>
+          <p class="card-subtitle"><strong>Research Assistant to Professor Susan Dynarski</strong></p>
           <p class="card-desc">
-            Public procurement contracts account for substantial GDP shares in emerging economies, yet remain susceptible to allocation inefficiency and collusion. This project analyzes the causal impact of transitioning from discretionary administrative committees to automated algorithmic scoring systems. Using administrative registry records spanning 45,000 tenders, we exploit a staggered policy rollout to estimate impacts on project completion delays, cost overruns, and small-firm vendor entry.
+            Developed a synthetic dataset and full replication module in R for an educational randomized controlled trial (RCT), supporting reproducible applied microeconometric research and graduate teaching. Wrote, documented, and maintained analysis code; managed the project's Git/GitHub repository to facilitate version control, collaboration, and clear analytic documentation.
           </p>
           <div class="card-tags">
-            <span class="tag">Difference-in-Differences</span>
-            <span class="tag">Machine Learning</span>
-            <span class="tag">Public Procurement</span>
-            <span class="tag">Stata / R</span>
+            <span class="tag">R / tidyverse</span>
+            <span class="tag">RCTs</span>
+            <span class="tag">Reproducible Science</span>
+            <span class="tag">Git / GitHub</span>
+            <span class="tag">Applied Microeconometrics</span>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary btn-sm">Read Article</a>
-            <a href="https://github.com" target="_blank" class="btn btn-secondary btn-sm">GitHub Replication Code</a>
-            <a href="#" class="btn btn-secondary btn-sm">Download Dataset (OSF)</a>
-            <button class="btn btn-secondary btn-sm" onclick="openBibtexModal(this)" data-bibtex="@article{shifat2026algorithmic,
-  title={Algorithmic Resource Allocation in Public Infrastructure Delivery},
-  author={Shifat, Nazmuzzaman and Vance, Eleanor and Rahman, Kazi},
-  journal={Journal of Economic Perspectives},
-  volume={40},
-  number={2},
-  pages={112--138},
-  year={2026},
-  doi={10.1257/jep.2026.0402}
-}">BibTeX Citation</button>
+            <a href="https://github.com/nzshifat" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              GitHub Repository
+            </a>
           </div>
         </article>
 
-        <!-- Research Item 2 -->
-        <article class="card" data-category="working-paper climate finance">
+        <!-- Project 2: Ash Center HKS Civil Service -->
+        <article class="card" data-category="policy public-sector">
           <div class="card-meta">
-            <span class="tag tag-status tag-working">Working Paper</span>
-            <span>Under Review (Revise & Resubmit) &bull; 2026</span>
+            <span class="tag tag-status tag-published">Policy Project</span>
+            <span>Ash Center for Democratic Governance, Harvard Kennedy School &bull; 2024</span>
           </div>
-          <h2 class="card-title">Spatial Spillover Effects of Climate Disasters on Rural Banking Portfolios</h2>
-          <p class="card-subtitle">Nazmuzzaman Shifat (Solo-authored)</p>
+          <h2 class="card-title">Bangladesh Public Administration Project: Civil Service Survey & Data System</h2>
+          <p class="card-subtitle"><strong>Research Assistant & Project Associate</strong></p>
           <p class="card-desc">
-            This project investigates how localized climatic extremes propagate through interconnected rural credit networks. Combining high-resolution geospatial precipitation and flood sensor data (0.05-degree resolution) with geocoded loan performance records across 1,200 rural bank branches, I demonstrate that credit contraction spreads up to 75 kilometers outside the physical disaster perimeter due to lender balance-sheet liquidity hoarding.
+            Programmed and fielded a comprehensive Qualtrics survey for senior civil service officials in Bangladesh. Cleaned and managed electronically collected survey data; implemented quality assurance checks, constructed project databases, and prepared analysis-ready datasets. Produced descriptive statistics and summary tables in R/SPSS for high-level government executive reports.
           </p>
           <div class="card-tags">
-            <span class="tag">Spatial Econometrics</span>
-            <span class="tag">Climate Risk</span>
-            <span class="tag">Banking & Finance</span>
-            <span class="tag">GIS / Python / Stata</span>
+            <span class="tag">Qualtrics</span>
+            <span class="tag">R / SPSS</span>
+            <span class="tag">Survey Design</span>
+            <span class="tag">Civil Service Governance</span>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary btn-sm">SSRN Working Paper</a>
-            <a href="https://github.com" target="_blank" class="btn btn-secondary btn-sm">Replication Code</a>
-            <a href="#" class="btn btn-secondary btn-sm">Slides (PDF)</a>
-            <button class="btn btn-secondary btn-sm" onclick="openBibtexModal(this)" data-bibtex="@techreport{shifat2026climate,
-  title={Spatial Spillover Effects of Climate Disasters on Rural Banking Portfolios},
-  author={Shifat, Nazmuzzaman},
-  institution={SSRN Working Paper Series},
-  number={4928172},
-  year={2026}
-}">BibTeX Citation</button>
+            <a href="experience.html" class="btn btn-secondary btn-sm">View Project Roles & Experience</a>
           </div>
         </article>
 
-        <!-- Research Item 3 -->
-        <article class="card" data-category="working-paper labor ai">
+        <!-- Project 3: 3MPower EdTechHub -->
+        <article class="card" data-category="education edtech">
           <div class="card-meta">
-            <span class="tag tag-status tag-working">Working Paper</span>
-            <span>Draft in Circulation &bull; 2026</span>
+            <span class="tag tag-status tag-published">Grant-Funded Study</span>
+            <span>The Open University (UK) & EdTechHub &bull; 2022–2023</span>
           </div>
-          <h2 class="card-title">Generative AI Diffusion and the Dynamic Elasticity of White-Collar Wages</h2>
-          <p class="card-subtitle">Nazmuzzaman Shifat & Prof. Marcus Chen</p>
+          <h2 class="card-title">3MPower: EdTech-Supported Instruction for Elementary Mathematics Teachers</h2>
+          <p class="card-subtitle"><strong>Early Career Researcher</strong> (Dhaka, Bangladesh)</p>
           <p class="card-desc">
-            We evaluate the wage and employment trajectory of knowledge workers across four software and consulting hubs following the adoption of autonomous coding and drafting tools. Utilizing high-frequency scraped job vacancy telemetry and individual wage tracking datasets, we identify an asymmetrical compression of entry-level salary premiums contrasted with an expansion of senior architectural compensation.
+            Investigated EdTech-supported pedagogy for elementary mathematics teachers in low-resource and remote rural settings. Assisted in the development of data collection instruments and training protocols; coordinated fieldwork logistics in hard-to-reach communities; managed quantitative and qualitative datasets; generated visualizations using SPSS and Dedoose; and co-authored donor reports.
           </p>
           <div class="card-tags">
-            <span class="tag">Labor Economics</span>
-            <span class="tag">Artificial Intelligence</span>
-            <span class="tag">Natural Language Processing</span>
-            <span class="tag">Web Scraping / Python</span>
+            <span class="tag">EdTech</span>
+            <span class="tag">Dedoose</span>
+            <span class="tag">SPSS</span>
+            <span class="tag">Low-Resource Classrooms</span>
+            <span class="tag">Teacher Professional Development</span>
           </div>
           <div class="card-footer">
-            <a href="#" class="btn btn-primary btn-sm">Download Draft PDF</a>
-            <a href="https://github.com" target="_blank" class="btn btn-secondary btn-sm">Data Pipeline on GitHub</a>
-            <button class="btn btn-secondary btn-sm" onclick="openBibtexModal(this)" data-bibtex="@unpublished{shifat2026generative,
-  title={Generative AI Diffusion and the Dynamic Elasticity of White-Collar Wages},
-  author={Shifat, Nazmuzzaman and Chen, Marcus},
-  note={Working paper, available at arXiv:2604.09112},
-  year={2026}
-}">BibTeX Citation</button>
+            <span style="font-size: 0.85rem; color: var(--text-muted); font-style: italic;">Funded by EdTechHub & The Open University (UK)</span>
           </div>
         </article>
 
-        <!-- Research Item 4 -->
-        <article class="card" data-category="in-progress governance institutional">
+        <!-- Project 4: Char Islands Learning Gap -->
+        <article class="card" data-category="education policy">
           <div class="card-meta">
-            <span class="tag tag-status tag-review">Work in Progress</span>
-            <span>Data Collection & Field Survey &bull; 2026–2027</span>
+            <span class="tag tag-status tag-published">Field Evaluation</span>
+            <span>Institute of Education and Research, University of Dhaka &bull; 2021–2022</span>
           </div>
-          <h2 class="card-title">Institutional Memory and Bureaucratic Turnover in Administrative Agencies</h2>
-          <p class="card-subtitle">Nazmuzzaman Shifat & Research Team</p>
+          <h2 class="card-title">Students’ Learning Gap during COVID-19 Pandemic: Friendship’s Experience in Char Islands</h2>
+          <p class="card-subtitle"><strong>Research Associate</strong> (Char Islands, Bangladesh)</p>
           <p class="card-desc">
-            How does frequent civil service rotation affect regulatory enforcement consistency and public trust? This project construct a novel 20-year longitudinal database of 18,000 civil servants, measuring organizational knowledge decay through text analysis of regulatory audit reports.
+            Collected survey and interview data across isolated river-island (char) communities to evaluate learning loss during prolonged COVID-19 school closures. Managed mixed-methods datasets in SPSS, conducted empirical analyses, and contributed to drafting policy reports on learning loss and recovery strategies.
           </p>
           <div class="card-tags">
-            <span class="tag">Institutional Economics</span>
-            <span class="tag">Text-as-Data</span>
-            <span class="tag">Public Administration</span>
+            <span class="tag">Learning Loss</span>
+            <span class="tag">Riverine Communities</span>
+            <span class="tag">SPSS</span>
+            <span class="tag">Mixed Methods</span>
           </div>
-          <div class="card-footer">
-            <span style="font-size: 0.85rem; color: var(--text-muted); font-style: italic;">Field experiments and administrative text parsing currently ongoing. Draft anticipated Summer 2027.</span>
+        </article>
+
+        <!-- Project 5: TVET Tracer Study -->
+        <article class="card" data-category="policy education">
+          <div class="card-meta">
+            <span class="tag tag-status tag-published">National Study</span>
+            <span>Institute of Education and Research, University of Dhaka &bull; 2018–2020</span>
+          </div>
+          <h2 class="card-title">National Tracer Study: Matching Diploma in Engineering Curriculum for Employability</h2>
+          <p class="card-subtitle"><strong>Research Associate</strong> (Nationwide Bangladesh)</p>
+          <p class="card-desc">
+            Contributed to instrument design and data collection planning for one of Bangladesh’s largest mixed-methods tracer studies in technical and vocational education (TVET). Merged multi-wave survey datasets from graduates and employers in SPSS; conducted descriptive and multivariate analyses; and supported the drafting of national curriculum revision white papers.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Tracer Study</span>
+            <span class="tag">TVET</span>
+            <span class="tag">Curriculum Revision</span>
+            <span class="tag">Multivariate Analysis</span>
+          </div>
+        </article>
+
+        <!-- Project 6: Master's Thesis on Elasticity -->
+        <article class="card" data-category="education stem">
+          <div class="card-meta">
+            <span class="tag tag-status tag-published">M.Ed. Thesis (Grade: A+)</span>
+            <span>1st Bangabandhu Scholar of Education and Development &bull; 2020–2022</span>
+          </div>
+          <h2 class="card-title">Exploring Undergraduate Students’ Concepts of Elasticity in Bangladesh</h2>
+          <p class="card-subtitle"><strong>Master of Education Thesis</strong> (First Class First)</p>
+          <p class="card-desc">
+            Investigated undergraduate students' cognitive and conceptual models of Elasticity across STEM and economics domains in Bangladesh. Analyzed conceptual misalignments and developed pedagogical recommendations for university STEM and economics curricula.
+          </p>
+          <div class="card-tags">
+            <span class="tag">STEM Education</span>
+            <span class="tag">Cognitive Concepts</span>
+            <span class="tag">Pedagogy</span>
           </div>
         </article>
 
       </div>
-
     </div>
   </main>
-
-  <!-- BibTeX Modal -->
-  <div class="modal-backdrop" id="bibtex-modal">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3 class="modal-title">BibTeX Citation</h3>
-        <button class="modal-close" id="modal-close-btn" aria-label="Close modal">&times;</button>
-      </div>
-      <pre class="bibtex-code" id="bibtex-code-content"></pre>
-      <div style="display: flex; justify-content: flex-end; gap: 0.5rem;">
-        <button class="btn btn-primary btn-sm" id="copy-bibtex-btn">Copy to Clipboard</button>
-      </div>
-    </div>
-  </div>
 
   <!-- Footer -->
   <footer class="footer">
     <div class="container footer-content">
       <div>
-        <p>&copy; 2026 Nazmuzzaman Shifat. Hosted on GitHub Pages.</p>
+        <p>&copy; 2026 Md Nazmuzzaman Shifat &bull; Harvard University</p>
       </div>
       <div class="footer-links">
         <a href="index.html">Home</a>
@@ -232,4 +225,3 @@
   <script src="assets/js/main.js"></script>
 </body>
 </html>
-

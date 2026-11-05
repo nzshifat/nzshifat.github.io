@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<div class="container article-container">
+  <a href="{{ '/opeds.html' | relative_url }}" class="article-back">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+    Back to all Op-Eds & Media
+  </a>
+
+  <header class="article-header">
+    <h1 class="article-title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <p class="card-subtitle" style="font-size: 1.15rem; margin-top: 0.5rem;">{{ page.subtitle }}</p>
+    {% endif %}
+
+    <div class="article-meta-banner">
+      <div class="article-meta-left">
+        {% if page.outlet %}
+          <span class="media-badge">{{ page.outlet }}</span>
+          <span>&bull;</span>
+        {% endif %}
+        <span>{{ page.date | date: "%B %d, %Y" }}</span>
+        {% if page.reading_time %}
+          <span>&bull;</span>
+          <span>{{ page.reading_time }}</span>
+        {% endif %}
+      </div>
+
+      {% if page.outlet_url %}
+      <div>
+        <a href="{{ page.outlet_url }}" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">
+          <span>Read on {{ page.outlet | default: "Publisher Site" }}</span>
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+        </a>
+      </div>
+      {% endif %}
+    </div>
+  </header>
+
+  <article class="article-content">
+    {{ content }}
+  </article>
+
+  <div class="card" style="margin-top: 3.5rem; padding: 1.5rem; background: var(--bg-card); border-left: 4px solid var(--accent);">
+    <div style="display: flex; gap: 1.25rem; align-items: center;">
+      <div class="brand-avatar" style="width: 48px; height: 48px; font-size: 1.1rem; flex-shrink: 0;">NS</div>
+      <div>
+        <h4 style="font-size: 1.05rem; margin-bottom: 0.25rem;">Md Nazmuzzaman Shifat</h4>
+        <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.5;">
+          Quantitative and mixed-methods research analyst at Harvard University. Ed.M. in Education Policy & Analysis (Harvard GSE). Research on applied econometrics, public sector programs, and education policy.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+

@@ -1,0 +1,32 @@
+# Site Settings for Jekyll on GitHub Pages
+title: Md Nazmuzzaman Shifat
+email: nzshifat@gse.harvard.edu
+description: "Quantitative & Mixed-Methods Research Analyst | Harvard Ed.M. | Education Policy, Applied Econometrics, and Public Sector Research."
+baseurl: "" # the subpath of your site, e.g. /portfolio (leave empty if custom domain or username.github.io)
+url: "https://nzshifat.github.io"
+
+# Author Information
+author:
+  name: Md Nazmuzzaman Shifat
+  tagline: "Quantitative & Mixed-Methods Research Analyst"
+  affiliation: "Harvard University &bull; Cambridge, MA"
+  email: nzshifat@gse.harvard.edu
+  github: nzshifat
+  linkedin: nzshifat
+  location: "Cambridge, MA, USA"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title/
+
+# Collections for Jekyll
+collections:
+  opeds:
+    output: true
+    permalink: /opeds/:title/
+
+# Exclude from processing
+exclude:
+  - README.md
+  - LICENSE
+

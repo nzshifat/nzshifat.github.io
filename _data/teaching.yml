@@ -1,0 +1,72 @@
+- code: "A205"
+  title: "Using Economic Models to Understand Education Systems"
+  institution: "Harvard Graduate School of Education"
+  role: "Teaching Fellow"
+  level: "Graduate"
+  period: "2024 – Present"
+  description: "Examines education systems through the lens of microeconomic models, human capital theory, school choice, and public policy incentives."
+  tags: ["Economics of Education", "Microeconomic Theory", "Education Policy"]
+
+- code: "EDU S030 / S040"
+  title: "Introductory & Intermediate Statistics for Educational Research: Applied Linear Regression"
+  institution: "Harvard Graduate School of Education"
+  role: "Teaching Fellow"
+  level: "Graduate"
+  period: "2024 – Present"
+  description: "Covers simple and multiple linear regression, model assumptions, diagnostics, interactions, and causal interpretation using Stata and R."
+  tags: ["Applied Linear Regression", "Stata", "R", "Causal Inference"]
+
+- code: "STAT E100"
+  title: "Intro to Quantitative Methods for the Social Sciences and Humanities"
+  institution: "Harvard Extension School"
+  role: "Teaching Fellow"
+  level: "Undergraduate / Graduate"
+  period: "2024 – Present"
+  description: "Foundations of statistical reasoning, probability, hypothesis testing, and regression analysis for social sciences."
+  tags: ["Quantitative Methods", "Probability", "Statistical Inference"]
+
+- code: "BA840"
+  title: "Using Evidence to Improve Teaching and Learning"
+  institution: "Harvard Graduate School of Education"
+  role: "Teaching Fellow"
+  level: "Graduate"
+  period: "2024 – Present"
+  description: "Translating empirical findings, classroom observations, and assessment data into actionable educational improvements."
+  tags: ["Evidence-Based Education", "Assessment", "Pedagogy"]
+
+- code: "ENVR E210"
+  title: "Analytical Methods in Sustainability"
+  institution: "Harvard Extension School"
+  role: "Teaching Fellow"
+  level: "Graduate"
+  period: "2024 – Present"
+  description: "Quantitative methods, environmental data modeling, and sustainability metrics for policy and decision-making."
+  tags: ["Quantitative Analysis", "Sustainability", "Policy Modeling"]
+
+- code: "BA801"
+  title: "Education Policy Analysis and Research in Comparative Perspective"
+  institution: "Harvard Graduate School of Education"
+  role: "Teaching Fellow"
+  level: "Graduate"
+  period: "2024 – Present"
+  description: "Comparative policy frameworks evaluating national education reform initiatives and international benchmarks."
+  tags: ["Comparative Policy", "International Development"]
+
+- code: "BDU 301"
+  title: "Educational Research and Data Analysis"
+  institution: "Bangabandhu Sheikh Mujibur Rahman Digital University"
+  role: "Lecturer"
+  level: "Undergraduate"
+  period: "Jan 2023 – Aug 2023"
+  description: "Core curriculum on quantitative and qualitative research design, questionnaire development, and statistical computation in SPSS."
+  tags: ["Research Methodology", "SPSS", "Data Analysis"]
+
+- code: "PRIME 501"
+  title: "Advanced Educational Measurement and Evaluation"
+  institution: "Prime University, Dhaka"
+  role: "Lecturer (Adjunct)"
+  level: "Graduate (M.Ed.)"
+  period: "Oct 2022 – Jan 2023"
+  description: "Advanced psychometrics, test construction, item analysis, rubric development, and educational assessment standards."
+  tags: ["Educational Measurement", "Psychometrics", "Assessment Design"]
+

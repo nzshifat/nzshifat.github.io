@@ -1,0 +1,54 @@
+- title: "Reproducible RCT Replication Module & Synthetic Microdata in R"
+  affiliation: "Harvard Graduate School of Education"
+  role: "Research Assistant to Professor Susan Dynarski"
+  period: "Jan 2024 – May 2024"
+  status: "Completed / Teaching Resource"
+  description: "Engineered a synthetic microdata set and comprehensive replication module in R modeling a randomized controlled trial (RCT). Authored reproducible analysis pipelines and managed the project's Git/GitHub repository for doctoral training and applied microeconometrics."
+  tags: ["Randomized Controlled Trials", "R / tidyverse", "Git/GitHub", "Applied Microeconometrics"]
+  category: "econometrics"
+
+- title: "Bangladesh Senior Civil Service Survey & Data System"
+  affiliation: "Ash Center for Democratic Governance, Harvard Kennedy School"
+  role: "Research Assistant & Project Associate"
+  period: "Feb 2024 – Aug 2024"
+  status: "Policy Brief / Project Complete"
+  description: "Programmed and fielded a comprehensive Qualtrics survey for senior civil service officials in Bangladesh. Constructed databases, conducted quality assurance protocols, and produced descriptive statistics and summary tables in R and SPSS for executive training and policy reports."
+  tags: ["Public Administration", "Qualtrics", "R / SPSS", "Survey Methodology"]
+  category: "policy"
+
+- title: "3MPower: EdTech-Supported Instruction for Mathematics Teachers in Hard-to-Reach Communities"
+  affiliation: "The Open University (UK) & EdTechHub"
+  role: "Early Career Researcher"
+  period: "Aug 2022 – Jan 2023"
+  status: "Research Report"
+  description: "Investigated technology-supported pedagogy for elementary mathematics teachers in low-resource and remote rural settings. Assisted in designing survey instruments, coordinated field data collection, and conducted mixed-methods analyses using SPSS and Dedoose."
+  tags: ["EdTech", "Mixed-Methods", "SPSS", "Dedoose", "Low-Resource Settings"]
+  category: "education"
+
+- title: "Students' Learning Gap During COVID-19: Friendship's Experience in Char Islands"
+  affiliation: "Institute of Education and Research, University of Dhaka"
+  role: "Research Associate"
+  period: "Oct 2021 – Jun 2022"
+  status: "Published Policy Study"
+  description: "Field study examining learning loss in marginalized river-island (char) communities during the pandemic. Collected mixed-methods survey and interview data, maintained ethical protocol standards, and drafted policy recommendations for targeted learning recovery."
+  tags: ["Learning Loss", "Char Islands", "SPSS", "Field Research"]
+  category: "education"
+
+- title: "National Tracer Study: Diploma in Engineering Curriculum for Employability"
+  affiliation: "Institute of Education and Research, University of Dhaka"
+  role: "Research Associate"
+  period: "Jan 2018 – Jun 2020"
+  status: "National Policy Evaluation"
+  description: "One of Bangladesh's largest mixed-methods tracer studies in technical and vocational education and training (TVET). Merged multi-wave survey data from thousands of polytechnic graduates and employers in SPSS to inform national curriculum reforms."
+  tags: ["TVET", "Tracer Study", "Curriculum Reform", "Large-Scale Data"]
+  category: "policy"
+
+- title: "Exploring Undergraduate Students' Concepts of Elasticity in Bangladesh"
+  affiliation: "University of Dhaka (M.Ed. Thesis)"
+  role: "Principal Investigator"
+  period: "2020 – 2022"
+  status: "Master's Thesis (Grade: A+)"
+  description: "Awarded 1st Bangabandhu Scholar of Education and Development. Investigated cognitive models and common misconceptions of physics/economics elasticity concepts among undergraduate students to inform STEM pedagogical practices."
+  tags: ["STEM Education", "Conceptual Understanding", "Pedagogy"]
+  category: "education"
+

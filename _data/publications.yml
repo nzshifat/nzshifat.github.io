@@ -1,0 +1,55 @@
+- type: "book_chapter"
+  title: "Beyond SDG4: Reimagining the Sustainable Development Goals for a Better Future"
+  authors: "Shifat, M. N., & Claude, M."
+  year: 2024
+  venue: "In Quality Education for All for a Better World: Learning from the Sustainable Development Goals (Vol. 2)"
+  publisher: "Independently Published"
+  category: "chapter"
+  bibtex: |
+    @incollection{shifat2024sdg4,
+      title={Beyond SDG4: Reimagining the Sustainable Development Goals for a Better Future},
+      author={Shifat, Md Nazmuzzaman and Claude, M.},
+      booktitle={Quality Education for All for a Better World: Learning from the Sustainable Development Goals},
+      volume={2},
+      year={2024},
+      publisher={Independently Published}
+    }
+
+- type: "book_chapter"
+  title: "The Declining Trend in Finland's PISA Reading Scores: The Way Forward"
+  authors: "Shifat, M. N., Claude, M., & Clarebout, H."
+  year: 2024
+  venue: "In F. M. Reimers, J. Chia, P. Choudhury, S. Heng, N. Nguyen, & W. Warren (Eds.), Education Policy Analysis to Make the World Better (p. 330, Vol. 2)"
+  publisher: "Independently Published"
+  category: "chapter"
+  bibtex: |
+    @incollection{shifat2024finland,
+      title={The Declining Trend in Finland's PISA Reading Scores: The Way Forward},
+      author={Shifat, Md Nazmuzzaman and Claude, M. and Clarebout, H.},
+      booktitle={Education Policy Analysis to Make the World Better},
+      editor={Reimers, Fernando M. and Chia, J. and Choudhury, P. and Heng, S. and Nguyen, N. and Warren, W.},
+      volume={2},
+      pages={330},
+      year={2024},
+      publisher={Independently Published}
+    }
+
+- type: "conference"
+  title: "Higher Education Admission Policies in Bangladesh: Enabling Upward Mobility or Reinforcing Inequalities?"
+  authors: "Shifat, M. N."
+  year: 2024
+  venue: "In S. Smith (Ed.), Equitable Higher Education in Times of Disruption (Proceedings of the 2024 WES-CIHE Summer Institute) (pp. 27–29)"
+  publisher: "Center for International Higher Education, Boston College"
+  category: "conference"
+  url: "https://drive.google.com/file/d/14CwXwx7ZIT7GylhkSu-ixVyta-AOPGjR/view"
+  bibtex: |
+    @inproceedings{shifat2024admission,
+      title={Higher Education Admission Policies in Bangladesh: Enabling Upward Mobility or Reinforcing Inequalities?},
+      author={Shifat, Md Nazmuzzaman},
+      booktitle={Equitable Higher Education in Times of Disruption (Proceedings of the 2024 WES-CIHE Summer Institute)},
+      editor={Smith, S.},
+      pages={27--29},
+      year={2024},
+      publisher={Center for International Higher Education, Boston College}
+    }
+

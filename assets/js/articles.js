@@ -4,73 +4,89 @@
  */
 
 const articlesDatabase = {
-  "ai-future-labor-economics": {
-    title: "Artificial Intelligence and the Reconfiguration of White-Collar Labor Markets",
-    subtitle: "Why the current wave of generative technologies challenges traditional human capital theories.",
-    outlet: "The Financial Times / Project Syndicate",
-    outletUrl: "https://example.com/op-eds/ai-labor-markets",
-    date: "October 14, 2026",
+  "higher-ed-admission-bangladesh": {
+    title: "Higher Education Admission Policies in Bangladesh: Upward Mobility or Reinforcing Inequality?",
+    subtitle: "An examination of standardized testing bottlenecks and quota reform in public universities.",
+    outlet: "The Daily Star (Op-Ed) / WES-CIHE Boston College",
+    outletUrl: "https://drive.google.com/file/d/14CwXwx7ZIT7GylhkSu-ixVyta-AOPGjR/view",
+    date: "September 18, 2024",
     readingTime: "6 min read",
-    category: "technology",
-    author: "Nazmuzzaman Shifat",
+    category: "equity",
+    author: "Md Nazmuzzaman Shifat",
     content: `
-For decades, economists understood the relationship between technological change and employment through the lens of Skill-Biased Technological Change (SBTC). Under this framework, automation substituted routine physical and cognitive tasks while complementing high-skill, abstract reasoning. 
+Higher education in Bangladesh has long been viewed as the preeminent engine of social mobility. For first-generation college students from rural agrarian households, securing admission to a flagship public university represents a life-altering inflection point.
 
-However, the rapid diffusion of large-scale cognitive models and autonomous agent workflows is inverting this paradigm. Rather than merely automating data entry or physical logistics, modern generative architectures operate directly within domains previously considered the exclusive province of advanced degree holders: legal analysis, institutional reporting, econometric synthesis, and software engineering.
+Yet, an empirical examination of admissions data reveals a more troubling structural reality: the very mechanisms designed to ensure meritocracy frequently amplify regional and socioeconomic stratification.
 
-## The Disruption of Cognitive Comparative Advantage
+## The Bottleneck of Standardized Testing
 
-Traditional human capital models assume that investment in formal schooling insulates workers against displacement by increasing their capacity for abstract problem-solving. Yet, empirical evidence from recent market adjustments suggests that tasks with well-defined textual syntax and precedent-based heuristics are precisely those where synthetic models achieve rapid efficiency gains.
+Every year, over a million students sit for the Higher Secondary Certificate (HSC) examinations, competing for a fraction of available seats in top public universities. The intense reliance on high-stakes competitive entrance examinations creates a thriving multi-million dollar coaching industry concentrated overwhelmingly in metropolitan Dhaka.
 
-> "The central challenge of this decade is not the total displacement of labor, but the structural polarization of cognitive rents."
+> "When standardized testing rewards expensive coaching centers rather than fundamental conceptual understanding, meritocracy becomes a proxy for parental wealth."
 
-As synthetic models assume routine drafting and data aggregation, the premium on human workers shifts toward three non-fungible capabilities:
-1. **Contextual Evaluation**: The capacity to verify facts, discern institutional nuance, and audit automated outputs.
-2. **Normative Judgment**: Ethical deliberation, stakeholder mediation, and accountability for consequences.
-3. **Cross-Disciplinary Synthesis**: Connecting domain expertise across institutional boundaries where models lack real-world grounded feedback.
+Rural students, educated in under-resourced secondary schools without access to specialized test preparation, enter these examinations at an acute disadvantage. This systemic divergence is not a reflection of cognitive aptitude, but of disparate capital allocation in early and secondary schooling.
 
-## Policy Implications and The Road Ahead
+## Policy Recommendations for Reform
 
-If public policy focuses solely on retraining displaced workers in basic computational literacy, it will fight the last war. What is required instead is institutional renewal: updated collective bargaining mechanisms for algorithmic governance, transparent disclosure standards for AI-assisted publications, and fiscal architectures that distribute productivity gains broadly across civil society.
+A truly equitable admission framework must move beyond raw aggregate scores to embrace context-aware evaluation:
+
+1. **Socio-Economic Index Weighting**: Factoring school district infrastructure and parental education levels into admission scoring formulas.
+2. **Cluster Examination Transparency**: Expanding the centralized cluster admission system while publishing comprehensive anonymized admissions telemetry.
+3. **Bridge Programs and Remedial Support**: Providing university-sponsored summer academic transition bootcamps for admitted students from marginalized backgrounds.
+
+Without bold policy intervention, our premier institutions risk entrenching existing privilege rather than cultivating the nation's broad intellectual potential.
     `
   },
-  "climate-resilience-macro-policy": {
-    title: "Integrating Climate Risk into Macro-Financial Stability Frameworks",
-    subtitle: "Central banks and fiscal authorities can no longer treat environmental shocks as exogenous outliers.",
-    outlet: "The Daily Star (Op-Ed)",
-    outletUrl: "https://example.com/op-eds/climate-macro-stability",
-    date: "August 28, 2026",
+  "beyond-sdg4-educational-equity": {
+    title: "Beyond SDG4: Reimagining Global Education Goals for a Post-Pandemic World",
+    subtitle: "Why enrollment metrics alone fail to capture foundational literacy and cognitive resilience.",
+    outlet: "Dhaka Tribune / Global Policy",
+    outletUrl: "https://example.com/op-eds/beyond-sdg4",
+    date: "May 15, 2024",
     readingTime: "5 min read",
     category: "policy",
-    author: "Nazmuzzaman Shifat",
+    author: "Md Nazmuzzaman Shifat",
     content: `
-Physical climate events—prolonged droughts, catastrophic floods, and sea-level rise—are shifting from rare tail-risk events to recurrent structural shocks. In emerging economies particularly, these shocks propagate directly through sovereign debt channels, agricultural yields, and banking sector balance sheets.
+Sustainable Development Goal 4 (SDG4) established an ambitious commitment to ensure inclusive and equitable quality education for all by 2030. In the early years of the millennium, international development metrics celebrated rapid gains in gross primary enrollment ratios across South Asia and Sub-Saharan Africa.
 
-## Beyond Conventional Stress Testing
+However, enrollment without learning is an empty promise. 
 
-Standard macroeconomic forecasting has long treated environmental degradation as an externality outside monetary policy mandates. Yet, when severe typhoons or seasonal anomalies depress domestic agricultural output, the resulting food price volatility translates immediately into core inflation. Central banks attempting to anchor inflation expectations through blunt interest rate hikes risk suppressing domestic investment without alleviating the supply-side bottleneck.
+## The Quality Paradox
 
-## Designing Resilient Policy Tools
+Field research in low-resource communities reveals alarming rates of "learning poverty." Children who have completed three or four years of primary schooling frequently struggle to read a simple paragraph or perform single-digit subtraction. 
 
-A modern resilience framework requires three pillars:
-* **Sovereign Green Bond Issuance with Disaster Clauses**: Debt instruments that automatically defer principal repayment following certified climate disasters.
-* **Granular Geo-Spatial Risk Audits**: Requiring commercial banks to map corporate loan collateral against high-resolution climate hazard models.
-* **Targeted Capital Buffers**: Establishing countercyclical contingency reserves tailored to regional climate vulnerability rather than generic risk weights.
+The disruption of the COVID-19 pandemic severely compounded these inequities. In hard-to-reach geographic regions—such as the riverine char islands of northern Bangladesh—extended school closures eroded nearly two years of foundational skills, with adolescent girls experiencing disproportionately severe learning losses and dropout rates.
+
+## Toward Meaningful Metrics
+
+To reimagine global education targets beyond 2030, the international community must transition from counting bodies in classrooms to measuring substantive learning outcomes and institutional capacity:
+* **Real-time Diagnostic Assessments**: Moving away from punitive summative exams toward continuous formative diagnostic tools.
+* **Targeted Foundational Instruction**: Adopting evidence-based pedagogical models like Teaching at the Right Level (TaRL).
+* **Decentralized Resource Allocation**: Directing fiscal grants directly to school management committees in climate-vulnerable communities.
     `
   },
-  "data-sovereignty-global-south": {
-    title: "Data Sovereignty and Industrial Strategy in the Global South",
-    subtitle: "How developing economies can protect digital assets while participating in global knowledge networks.",
-    outlet: "Dhaka Tribune / Global Policy Review",
-    outletUrl: "https://example.com/op-eds/data-sovereignty-global-south",
-    date: "May 12, 2026",
-    readingTime: "7 min read",
-    category: "governance",
-    author: "Nazmuzzaman Shifat",
+  "edtech-rural-communities": {
+    title: "EdTech in the Margins: What Works for Teachers in Riverine Communities?",
+    subtitle: "Field lessons on digital pedagogy from northern Bangladesh char islands.",
+    outlet: "The Financial Express",
+    outletUrl: "https://example.com/op-eds/edtech-char-islands",
+    date: "December 12, 2023",
+    readingTime: "5 min read",
+    category: "edtech",
+    author: "Md Nazmuzzaman Shifat",
     content: `
-As national economies become increasingly digitized, data infrastructure is supplanting traditional physical infrastructure as the foundation of sovereign industrial policy. The question facing policymakers across the Global South is whether they will remain mere consumers and data exporters for multinational technology firms, or whether they can cultivate sovereign compute and local analytical ecosystems.
+While metropolitan policy discussions often imagine educational technology through the lens of high-bandwidth streaming and tablet labs, the daily reality in remote river-island schools requires fundamentally different pedagogical assumptions.
 
-The path forward requires proactive digital public infrastructure (DPI), open-access scientific datasets, and regional knowledge consortiums that treat local administrative and linguistic data as a sovereign strategic resource.
+## Infrastructure Friction
+
+In rural char communities, intermittent solar electricity, device sharing, and cellular dead zones are structural constants. When EdTech interventions assume continuous connectivity or complex software updates, they predictably fail.
+
+In our field investigations with rural mathematics educators, the most resilient interventions were those that treated technology not as a substitute for human instruction, but as an asynchronous cognitive scaffold for the teacher:
+1. **Low-Bandwidth Micro-Modules**: Audio-visual prompts and short demonstration clips cached on offline memory cards.
+2. **Peer Learning Circles**: Structured WhatsApp / SMS communities where isolated teachers share localized lesson adaptations.
+3. **Formative Assessment Cards**: Physical rubrics paired with periodic SMS response logging.
+
+Closing the educational divide requires designing for the hardest edge cases first.
     `
   }
 };
@@ -97,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Update document title
-  document.title = `${article.title} | Nazmuzzaman Shifat`;
+  document.title = `${article.title} | Md Nazmuzzaman Shifat`;
 
   // Render Header & Meta
   const titleEl = document.getElementById('article-title');
@@ -124,7 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-// Lightweight, safe markdown converter for articles
+// Lightweight markdown converter for on-site article view
 function parseMarkdown(md) {
   let html = md.trim();
 
@@ -158,4 +174,3 @@ function parseMarkdown(md) {
     return `<p>${p.replace(/\n/g, '<br>')}</p>`;
   }).join('');
 }
-
