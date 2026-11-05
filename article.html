@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article Reader | Nazmuzzaman Shifat</title>
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" aria-label="Main Navigation">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-brand" aria-label="Home">
+        <div class="brand-avatar">NS</div>
+        <span>Nazmuzzaman Shifat</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="research.html" class="nav-link">Research</a></li>
+        <li><a href="publications.html" class="nav-link">Publications</a></li>
+        <li><a href="opeds.html" class="nav-link">Op-Eds</a></li>
+        <li><a href="teaching.html" class="nav-link">Teaching</a></li>
+        <li><a href="collaborations.html" class="nav-link">Collaborations</a></li>
+        <li><a href="experience.html" class="nav-link">Experience / CV</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark / Light Theme" title="Toggle Theme"></button>
+        <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle Navigation Menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container article-container" id="article-render-container">
+      <a href="opeds.html" class="article-back">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+        Back to all Op-Eds & Media
+      </a>
+
+      <header class="article-header">
+        <h1 class="article-title" id="article-title">Loading Article...</h1>
+        <p class="card-subtitle" id="article-subtitle" style="font-size: 1.15rem; margin-top: 0.5rem;"></p>
+
+        <!-- Official Publication Banner & Hyperlink -->
+        <div class="article-meta-banner">
+          <div class="article-meta-left">
+            <span class="media-badge" id="article-outlet">Media Outlet</span>
+            <span>&bull;</span>
+            <span id="article-date">Date</span>
+            <span>&bull;</span>
+            <span id="article-reading-time">Reading Time</span>
+          </div>
+
+          <div>
+            <a href="#" id="article-outlet-link" class="btn btn-secondary btn-sm" target="_blank" rel="noopener noreferrer">
+              <span>View Original on Media Site</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+            </a>
+          </div>
+        </div>
+      </header>
+
+      <!-- Article Body -->
+      <article class="article-content" id="article-body">
+        <!-- Rendered by assets/js/articles.js -->
+      </article>
+
+      <!-- Author Bio Footer Box -->
+      <div class="card" style="margin-top: 3.5rem; padding: 1.5rem; background: var(--bg-card); border-left: 4px solid var(--accent);">
+        <div style="display: flex; gap: 1.25rem; align-items: center;">
+          <div class="brand-avatar" style="width: 48px; height: 48px; font-size: 1.1rem; flex-shrink: 0;">NS</div>
+          <div>
+            <h4 style="font-size: 1.05rem; margin-bottom: 0.25rem;">Nazmuzzaman Shifat</h4>
+            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.5;">
+              Academic researcher focusing on applied econometrics, labor markets, and technology policy. Published across national and international press.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <p>&copy; 2026 Nazmuzzaman Shifat. Hosted on GitHub Pages.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="opeds.html">Op-Eds</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="experience.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/articles.js"></script>
+</body>
+</html>
+

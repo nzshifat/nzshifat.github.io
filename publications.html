@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications | Nazmuzzaman Shifat</title>
+  <meta name="description" content="Peer-reviewed journal publications, book chapters, and academic papers by Nazmuzzaman Shifat.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" aria-label="Main Navigation">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-brand" aria-label="Home">
+        <div class="brand-avatar">NS</div>
+        <span>Nazmuzzaman Shifat</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="research.html" class="nav-link">Research</a></li>
+        <li><a href="publications.html" class="nav-link">Publications</a></li>
+        <li><a href="opeds.html" class="nav-link">Op-Eds</a></li>
+        <li><a href="teaching.html" class="nav-link">Teaching</a></li>
+        <li><a href="collaborations.html" class="nav-link">Collaborations</a></li>
+        <li><a href="experience.html" class="nav-link">Experience / CV</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark / Light Theme" title="Toggle Theme"></button>
+        <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle Navigation Menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container">
+
+      <header class="page-header">
+        <h1 class="page-title">Publications</h1>
+        <p class="page-subtitle">
+          Peer-reviewed journal articles, book chapters, and policy white papers. 
+          Use the search and category filters below to locate specific papers, or export citations directly in BibTeX format.
+        </p>
+      </header>
+
+      <!-- Filter & Search Bar -->
+      <div class="filter-bar">
+        <div class="search-input-wrap">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" class="search-input" placeholder="Search publications by title, journal, keywords...">
+        </div>
+
+        <div class="filter-pills">
+          <button class="filter-pill active" data-filter="all">All Papers</button>
+          <button class="filter-pill" data-filter="journal">Journals</button>
+          <button class="filter-pill" data-filter="chapter">Book Chapters</button>
+          <button class="filter-pill" data-filter="policy">Policy Reports</button>
+        </div>
+      </div>
+
+      <!-- Empty State -->
+      <div id="empty-filter-state" style="display: none; text-align: center; padding: 3rem 1rem; color: var(--text-muted);">
+        <p style="font-size: 1.1rem; margin-bottom: 0.5rem;">No publications matched your search criteria.</p>
+        <p style="font-size: 0.9rem;">Try modifying your keyword query.</p>
+      </div>
+
+      <!-- Publications List -->
+      <div class="list-stack">
+
+        <!-- Publication 1 -->
+        <article class="card" data-category="journal econometrics 2026">
+          <div class="card-meta">
+            <span class="tag tag-status tag-published">Journal Article</span>
+            <span>2026 &bull; Journal of Economic Perspectives</span>
+          </div>
+          <h2 class="card-title">Algorithmic Resource Allocation in Public Infrastructure Delivery</h2>
+          <p class="card-subtitle"><strong>Nazmuzzaman Shifat</strong>, Eleanor Vance, Kazi Rahman</p>
+          <p class="card-desc">
+            We show that automated scoring systems in public procurement reduce project completion delays by 18.4% and eliminate 62% of unexplained single-bid award clusters, driven by reduced administrative discretion and standardized compliance checkpoints.
+          </p>
+          <div class="card-footer">
+            <span style="font-size: 0.8rem; color: var(--text-muted); margin-right: auto;">DOI: 10.1257/jep.2026.0402</span>
+            <a href="#" class="btn btn-primary btn-sm">Publisher PDF</a>
+            <a href="https://github.com" target="_blank" class="btn btn-secondary btn-sm">Replication Code</a>
+            <button class="btn btn-secondary btn-sm" onclick="openBibtexModal(this)" data-bibtex="@article{shifat2026algorithmic,
+  title={Algorithmic Resource Allocation in Public Infrastructure Delivery},
+  author={Shifat, Nazmuzzaman and Vance, Eleanor and Rahman, Kazi},
+  journal={Journal of Economic Perspectives},
+  volume={40},
+  number={2},
+  pages={112--138},
+  year={2026},
+  doi={10.1257/jep.2026.0402}
+}">Cite (BibTeX)</button>
+          </div>
+        </article>
+
+        <!-- Publication 2 -->
+        <article class="card" data-category="journal finance banking 2025">
+          <div class="card-meta">
+            <span class="tag tag-status tag-published">Journal Article</span>
+            <span>2025 &bull; Journal of Development Economics</span>
+          </div>
+          <h2 class="card-title">Financial Inclusion and Informal Risk-Sharing Networks: Evidence from Mobile Money Panics</h2>
+          <p class="card-subtitle"><strong>Nazmuzzaman Shifat</strong>, T. Ahmed, S. Chowdhury</p>
+          <p class="card-desc">
+            Examining peer-to-peer liquidity transfers during systemic regional shocks. We find that digital mobile wallets attenuate consumption drops by 24% for rural households when remittance corridors remain operational.
+          </p>
+          <div class="card-footer">
+            <span style="font-size: 0.8rem; color: var(--text-muted); margin-right: auto;">DOI: 10.1016/j.jdeveco.2025.103194</span>
+            <a href="#" class="btn btn-primary btn-sm">Publisher Link</a>
+            <a href="#" class="btn btn-secondary btn-sm">Preprint (PDF)</a>
+            <button class="btn btn-secondary btn-sm" onclick="openBibtexModal(this)" data-bibtex="@article{shifat2025financial,
+  title={Financial Inclusion and Informal Risk-Sharing Networks: Evidence from Mobile Money Panics},
+  author={Shifat, Nazmuzzaman and Ahmed, T. and Chowdhury, S.},
+  journal={Journal of Development Economics},
+  volume={168},
+  pages={103194},
+  year={2025},
+  doi={10.1016/j.jdeveco.2025.103194}
+}">Cite (BibTeX)</button>
+          </div>
+        </article>
+
+        <!-- Publication 3 -->
+        <article class="card" data-category="chapter governance 2025">
+          <div class="card-meta">
+            <span class="tag tag-status tag-review">Book Chapter</span>
+            <span>2025 &bull; Oxford University Press</span>
+          </div>
+          <h2 class="card-title">Digital Public Infrastructure and Sovereign Data Architectures in South Asia</h2>
+          <p class="card-subtitle">In <em>State Capacity and the Digital Frontier</em> (Eds. H. Perkins & M. Khan)</p>
+          <p class="card-desc">
+            A comprehensive institutional study evaluating digital identification, unified payments interfaces, and data privacy governance frameworks across Bangladesh, India, and Pakistan.
+          </p>
+          <div class="card-footer">
+            <span style="font-size: 0.8rem; color: var(--text-muted); margin-right: auto;">ISBN: 978-0-19-890214-5</span>
+            <a href="#" class="btn btn-primary btn-sm">Chapter Preview</a>
+            <button class="btn btn-secondary btn-sm" onclick="openBibtexModal(this)" data-bibtex="@incollection{shifat2025digital,
+  title={Digital Public Infrastructure and Sovereign Data Architectures in South Asia},
+  author={Shifat, Nazmuzzaman},
+  booktitle={State Capacity and the Digital Frontier},
+  editor={Perkins, H. and Khan, M.},
+  pages={187--218},
+  year={2025},
+  publisher={Oxford University Press}
+}">Cite (BibTeX)</button>
+          </div>
+        </article>
+
+        <!-- Publication 4 -->
+        <article class="card" data-category="policy climate 2024">
+          <div class="card-meta">
+            <span class="tag tag-status tag-published">Policy Report</span>
+            <span>2024 &bull; Global Climate Resilience Consortium</span>
+          </div>
+          <h2 class="card-title">Macro-Prudential Stress Testing for Climate-Induced Sovereign Debt Distresses</h2>
+          <p class="card-subtitle"><strong>Nazmuzzaman Shifat</strong> & Policy Taskforce</p>
+          <p class="card-desc">
+            Commissioned white paper detailing systemic financial contagion models for middle-income developing countries exposed to cyclonic surges and agricultural credit defaults.
+          </p>
+          <div class="card-footer">
+            <a href="#" class="btn btn-primary btn-sm">Full Report (PDF)</a>
+            <a href="#" class="btn btn-secondary btn-sm">Executive Summary</a>
+            <button class="btn btn-secondary btn-sm" onclick="openBibtexModal(this)" data-bibtex="@techreport{shifat2024climate,
+  title={Macro-Prudential Stress Testing for Climate-Induced Sovereign Debt Distresses},
+  author={Shifat, Nazmuzzaman},
+  institution={Global Climate Resilience Consortium},
+  number={Policy Brief 12},
+  year={2024}
+}">Cite (BibTeX)</button>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- BibTeX Modal -->
+  <div class="modal-backdrop" id="bibtex-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title">BibTeX Citation</h3>
+        <button class="modal-close" id="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+      <pre class="bibtex-code" id="bibtex-code-content"></pre>
+      <div style="display: flex; justify-content: flex-end; gap: 0.5rem;">
+        <button class="btn btn-primary btn-sm" id="copy-bibtex-btn">Copy to Clipboard</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <p>&copy; 2026 Nazmuzzaman Shifat. Hosted on GitHub Pages.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="opeds.html">Op-Eds</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="experience.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+

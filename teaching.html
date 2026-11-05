@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teaching | Nazmuzzaman Shifat</title>
+  <meta name="description" content="Courses taught, course materials, syllabi, and pedagogical philosophy by Nazmuzzaman Shifat.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" aria-label="Main Navigation">
+    <div class="container nav-container">
+      <a href="index.html" class="nav-brand" aria-label="Home">
+        <div class="brand-avatar">NS</div>
+        <span>Nazmuzzaman Shifat</span>
+      </a>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="research.html" class="nav-link">Research</a></li>
+        <li><a href="publications.html" class="nav-link">Publications</a></li>
+        <li><a href="opeds.html" class="nav-link">Op-Eds</a></li>
+        <li><a href="teaching.html" class="nav-link">Teaching</a></li>
+        <li><a href="collaborations.html" class="nav-link">Collaborations</a></li>
+        <li><a href="experience.html" class="nav-link">Experience / CV</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Dark / Light Theme" title="Toggle Theme"></button>
+        <button id="mobile-toggle" class="mobile-toggle" aria-label="Toggle Navigation Menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+    <div class="container">
+
+      <header class="page-header">
+        <h1 class="page-title">Teaching & Pedagogy</h1>
+        <p class="page-subtitle">
+          Undergraduate and graduate courses taught across econometrics, data analytics, and public policy. 
+          Emphasis on reproducible empirical computing, real-world case studies, and hands-on coding labs.
+        </p>
+      </header>
+
+      <!-- Teaching Philosophy Card -->
+      <section class="card" style="margin-bottom: 2.5rem; background: var(--bg-card); border-left: 4px solid var(--accent);">
+        <h2 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 0.75rem;">Pedagogical Approach</h2>
+        <p style="color: var(--text-secondary); line-height: 1.7; font-size: 0.95rem;">
+          My teaching philosophy centers on translating abstract mathematical frameworks into tangible, empirical inquiry. In all courses, students work with messy real-world datasets from day one—learning not only how to run regression estimators in R and Stata, but how to formulate identification strategies, detect selection biases, and communicate statistical findings with clarity to non-technical stakeholders.
+        </p>
+      </section>
+
+      <!-- Filter Controls -->
+      <div class="filter-bar">
+        <div class="search-input-wrap">
+          <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" class="search-input" placeholder="Search courses by code, title, or topic...">
+        </div>
+
+        <div class="filter-pills">
+          <button class="filter-pill active" data-filter="all">All Courses</button>
+          <button class="filter-pill" data-filter="undergrad">Undergraduate</button>
+          <button class="filter-pill" data-filter="grad">Graduate</button>
+          <button class="filter-pill" data-filter="workshop">Workshops</button>
+        </div>
+      </div>
+
+      <!-- Course List Stack -->
+      <div class="list-stack">
+
+        <!-- Course 1 -->
+        <article class="card" data-category="grad econometrics">
+          <div class="card-meta">
+            <span class="tag tag-status tag-published">Graduate Level</span>
+            <span>ECON 604 &bull; Fall 2026 / Spring 2026</span>
+          </div>
+          <h2 class="card-title">Applied Econometrics & Causal Inference</h2>
+          <p class="card-subtitle">Instructor of Record &bull; Graduate School</p>
+          <p class="card-desc">
+            Core graduate-level sequence covering contemporary quasi-experimental methods: Difference-in-Differences with staggered rollouts (Callaway-Sant'Anna, Sun-Abraham), Synthetic Control, Regression Discontinuity Designs, and Instrumental Variables. Complete with weekly lab modules in R and Stata.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Causal Inference</span>
+            <span class="tag">R / RStudio</span>
+            <span class="tag">Stata</span>
+            <span class="tag">Quasi-Experiments</span>
+          </div>
+          <div class="card-footer">
+            <a href="assets/docs/cv.pdf" target="_blank" class="btn btn-primary btn-sm">Download Syllabus (PDF)</a>
+            <a href="https://github.com" target="_blank" class="btn btn-secondary btn-sm">Course GitHub Lab Codes</a>
+            <span style="font-size: 0.8rem; color: var(--text-muted); margin-left: auto;">Student Rating: 4.8 / 5.0</span>
+          </div>
+        </article>
+
+        <!-- Course 2 -->
+        <article class="card" data-category="undergrad policy">
+          <div class="card-meta">
+            <span class="tag tag-status tag-published">Undergraduate Level</span>
+            <span>ECON 320 &bull; Fall 2025</span>
+          </div>
+          <h2 class="card-title">Data Analytics for Public Policy Decision-Making</h2>
+          <p class="card-subtitle">Lead Instructor</p>
+          <p class="card-desc">
+            Equipping upper-division students with applied computational tools to analyze policy interventions. Topics include administrative data cleaning, spatial mapping in QGIS, dashboarding in Tableau, and reproducible reporting via Quarto/RMarkdown.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Tableau</span>
+            <span class="tag">QGIS</span>
+            <span class="tag">Public Policy</span>
+            <span class="tag">Quarto</span>
+          </div>
+          <div class="card-footer">
+            <a href="assets/docs/cv.pdf" target="_blank" class="btn btn-primary btn-sm">Download Syllabus (PDF)</a>
+            <a href="#" class="btn btn-secondary btn-sm">Sample Lecture Slides</a>
+            <span style="font-size: 0.8rem; color: var(--text-muted); margin-left: auto;">Student Rating: 4.9 / 5.0</span>
+          </div>
+        </article>
+
+        <!-- Course 3 -->
+        <article class="card" data-category="undergrad intro">
+          <div class="card-meta">
+            <span class="tag tag-status tag-review">Undergraduate Level</span>
+            <span>ECON 101 &bull; 2024–2025</span>
+          </div>
+          <h2 class="card-title">Principles of Microeconomics & Market Structure</h2>
+          <p class="card-subtitle">Co-Instructor / Teaching Fellow</p>
+          <p class="card-desc">
+            Foundational survey introducing consumer optimization, firm pricing power, externalities, and market failure. Conducted weekly discussion sections of 35 students each, incorporating interactive classroom market simulations.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Microeconomics</span>
+            <span class="tag">Market Failures</span>
+            <span class="tag">Game Theory</span>
+          </div>
+          <div class="card-footer">
+            <a href="assets/docs/cv.pdf" target="_blank" class="btn btn-secondary btn-sm">View Syllabus</a>
+          </div>
+        </article>
+
+        <!-- Course 4 -->
+        <article class="card" data-category="workshop data">
+          <div class="card-meta">
+            <span class="tag tag-status tag-working">Intensive Workshop</span>
+            <span>Summer Bootcamp &bull; 2025</span>
+          </div>
+          <h2 class="card-title">Reproducible Research Workflows in Git, R, and LaTeX</h2>
+          <p class="card-subtitle">Workshop Leader & Designer</p>
+          <p class="card-desc">
+            A three-day intensive bootcamp for incoming graduate researchers on version control with Git, automated data pipelines, literate programming, and citation management in Zotero / BibTeX.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Git & GitHub</span>
+            <span class="tag">LaTeX</span>
+            <span class="tag">Zotero</span>
+            <span class="tag">Reproducibility</span>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com" target="_blank" class="btn btn-primary btn-sm">Open-Source Workshop Materials</a>
+          </div>
+        </article>
+
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div>
+        <p>&copy; 2026 Nazmuzzaman Shifat. Hosted on GitHub Pages.</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="research.html">Research</a>
+        <a href="publications.html">Publications</a>
+        <a href="opeds.html">Op-Eds</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="experience.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+

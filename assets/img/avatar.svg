@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="avatarGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+  </defs>
+  <rect width="320" height="320" rx="24" fill="url(#avatarGrad)"/>
+  
+  <!-- Subtle background tech/geometric grid lines -->
+  <path d="M0 80 H320 M0 160 H320 M0 240 H320" stroke="#334155" stroke-width="0.8" opacity="0.3"/>
+  <path d="M80 0 V320 M160 0 V320 M240 0 V320" stroke="#334155" stroke-width="0.8" opacity="0.3"/>
+  
+  <!-- Professional Silhouette -->
+  <g fill="#94a3b8" opacity="0.9">
+    <!-- Head -->
+    <circle cx="160" cy="115" r="48" fill="url(#accentGrad)"/>
+    <!-- Collar & Shoulders -->
+    <path d="M80 270 C80 205 115 185 160 185 C205 185 240 205 240 270 Z" fill="#334155"/>
+    <path d="M125 270 L160 215 L195 270 Z" fill="#1e293b"/>
+    <polygon points="160,215 152,245 160,270 168,245" fill="#60a5fa"/>
+  </g>
+</svg>
+
